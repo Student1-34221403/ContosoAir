@@ -1,6 +1,6 @@
 # This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
 
-
+[![Build Status](https://dev.azure.com/AppInnovation-34221403/GitHub%20Integration/_apis/build/status%2FStudent1-34221403.ContosoAir?branchName=master)](https://dev.azure.com/AppInnovation-34221403/GitHub%20Integration/_build/latest?definitionId=7&branchName=master)
 # Microsoft.Github CI Demo
 
 Demo website application for Contoso Air.  
