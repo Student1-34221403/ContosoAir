@@ -19,6 +19,11 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
 - task: DownloadPipelineArtifact@2
   inputs:
     buildType: 'specific'
@@ -27,10 +32,6 @@ steps:
     buildVersionToDownload: 'latest'
     targetPath: '$(Pipeline.Workspace)'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
